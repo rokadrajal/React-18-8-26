@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+}
+
+section {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+/* દરેક student નું અલગ card */
+section > div {
+  margin-bottom: 25px;
+  padding: 25px;
+
+  background: white;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+section > div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+  transition: 0.3s ease;
+}
+
+section h1 {
+  color: #6d63c7;
+  font-size: 24px;
+  margin-bottom: 12px;
+  padding: 16px 18px;
+
+  background: #f7f5ff;
+  border-left: 5px solid #a9a2e8;
+  border-radius: 10px;
+}
+
+section h2 {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
+
+  padding: 13px 18px;
+  margin-bottom: 8px;
+
+  border-radius: 10px;
+}
+
+/* College */
+section h2:nth-of-type(1) {
+  background: #fafcff;
+  border-left: 5px solid #a8dff5;
+}
+
+/* Gender */
+section h2:nth-of-type(2) {
+  background: #faf8ff;
+  border-left: 5px solid #c5b8ed;
+}
+
+/* Age */
+section h2:nth-of-type(3) {
+  background: #fffdf7;
+  border-left: 5px solid #f2d28b;
+}

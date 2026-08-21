@@ -1,0 +1,44 @@
+section{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 30px;  
+    padding: 40px 30px;
+}
+
+section h1{
+    text-align: center;
+    color: navy;
+    font-size: 40px;  
+}
+
+section img{
+    width: 100%;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+section main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    gap: 10px;
+    transition: all 1s ease-in-out 0s;  
+}
+
+section main:hover{
+    transform: scale(1.05);
+}
+
+section main h2{
+    text-align: center;
+}
