@@ -10,7 +10,7 @@ const cssStyle = {
   marginLeft : "200px"
  
 }
-const name = "ram";
+const name = "sita";
 
 function App() {
   return (

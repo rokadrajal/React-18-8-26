@@ -13,7 +13,7 @@ function About(data){
     const newidentity = {
         ...data
     }
-    newidentity.age = "10";
+    newidentity.age = "20";
     console.log("original data : ",data.age);
     console.log("modify data : ",newidentity.age);
     return

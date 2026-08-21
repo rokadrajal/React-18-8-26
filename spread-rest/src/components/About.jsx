@@ -1,6 +1,6 @@
 // SPREAD{ARRAY , OBJECT}
 
-const arr = [10,20,30,40,50];
+const arr = [10,20,30,40,50,60];
 function About(){
     console.log(...arr);
    return

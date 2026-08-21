@@ -40,7 +40,7 @@ const StudentDetails = [
 
 function App() {
   return (
-    <Home data = {StudentDetails}/>
+    <Home Data = {StudentDetails}/>
   )
 }
 

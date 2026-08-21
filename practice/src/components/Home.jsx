@@ -1,4 +1,4 @@
-function Home({ data }) {
+function Home({ Data }) {
     return (
         <section>
             {
