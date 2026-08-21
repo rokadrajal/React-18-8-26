@@ -1,16 +1,79 @@
-# React + Vite
+# 🚗 Car Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern Car Collection website built using **React.js**.
+This project displays different luxury, premium, sports, and performance cars with their company name, model, price, category, and image.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Display multiple cars
+- Display car company name
+- Display car model
+- Display car price
+- Display car category
+- Display car images
+- Inline CSS
+- CSS-in-JS
+- External CSS
+- Reusable React components
+- Car data passed using Props
+- Cars displayed using .map() method
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Styling
 
-## Expanding the ESLint configuration
+This project uses different CSS styling :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Inline CSS
+- CSS-in-JS
+- External CSS
+
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- JSX
+- CSS
+- Vite 
+
+## 📂 Project Structure
+
+- src/
+  - assets/
+    - car.png
+
+  - components/
+    - Footer.jsx
+    - Header.jsx
+    - Home.jsx
+
+  - styles/
+    - Home.css
+
+  - all.css
+  - App.jsx
+  - main.jsx  
+
+- README.md  
+
+## 🔄 Project Flow
+
+```
+index.html
+   ↓
+main.jsx
+   ↓
+App.jsx
+   ↓
+components
+   ↓
+   UI
+```
+
+## 📸 Screenshot
+
+![cars](Screenshot.png)
+
+## 🔗 Link
+
+https://drive.google.com/file/d/14fbKWOFgyx_uZHWLNLE2zfqLb7vNesw0/view?usp=sharing

@@ -4,7 +4,7 @@ const mystyle = {
     mainsection: {
         backgroundColor: "navy",
         color: "white",
-        padding: "10px 50px",
+        padding: "10px 30px",
         fontFamily: "Arial",
         display: "flex",
         justifyContent: "space-between",
@@ -14,7 +14,7 @@ const mystyle = {
     menu: {
         display: "flex",
         alignItems: "center",
-        gap: "50px",
+        gap: "40px",
         cursor: "pointer",
     },
 
