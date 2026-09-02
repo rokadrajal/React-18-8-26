@@ -47,7 +47,7 @@ A modern and responsive **Car Collection Website** built with React JS. Users ca
 
 **Technologies:** React JS, JavaScript, HTML, CSS
 
----
+
 
 ### 2. 🛒 E-commerce Platform
 
@@ -55,7 +55,7 @@ A responsive **E-commerce Website** designed to provide a smooth and user-friend
 
 **Technologies:** HTML, CSS, JavaScript
 
----
+
 
 ### 3. 🌦️ Weather Application
 
@@ -63,7 +63,7 @@ A simple and responsive **Weather Website** that provides weather-related inform
 
 **Technologies:** HTML, CSS, JavaScript
 
----
+
 
 ### 4. 🐴 Harmony With Horses
 
@@ -71,7 +71,7 @@ A modern and responsive website developed using **Bootstrap**, featuring a clean
 
 **Technologies:** HTML, CSS, Bootstrap
 
----
+
 
 ### 5. ❤️ Empower Your Health
 
@@ -79,7 +79,7 @@ A responsive **Health & Wellness Website** designed with Bootstrap to present he
 
 **Technologies:** HTML, CSS, Bootstrap
 
----
+
 
 ### 6. 🌾 Better Farming
 
