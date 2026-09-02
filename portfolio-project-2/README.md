@@ -41,39 +41,49 @@ This portfolio showcases my introduction, skills, certifications, projects, and 
 
 ## 🚀 Projects
 
-### 1. Car Collection
+### 1. 🚗 Car Collection
 
-A car collection website built using HTML, CSS and React JS.
+A modern and responsive **Car Collection Website** built with React JS. Users can explore different cars through visually appealing cards with detailed information.
 
-**Technologies:** HTML, CSS, React JS
+**Technologies:** React JS, JavaScript, HTML, CSS
 
-### 2. E-commerce Platform
+---
 
-An e-commerce website project focused on creating a user-friendly shopping experience.
+### 2. 🛒 E-commerce Platform
 
-**Technologies:** HTML, CSS, JavaScript
-
-### 3. Weather
-
-A weather-related web project.
+A responsive **E-commerce Website** designed to provide a smooth and user-friendly online shopping experience with a clean product-focused interface.
 
 **Technologies:** HTML, CSS, JavaScript
 
-### 4. Harmony With Horses
+---
 
-A responsive website project created using Bootstrap.
+### 3. 🌦️ Weather Application
+
+A simple and responsive **Weather Website** that provides weather-related information through an easy-to-use and clean interface.
+
+**Technologies:** HTML, CSS, JavaScript
+
+---
+
+### 4. 🐴 Harmony With Horses
+
+A modern and responsive website developed using **Bootstrap**, featuring a clean layout and user-friendly design for a horse-related organization.
 
 **Technologies:** HTML, CSS, Bootstrap
 
-### 5. Empower Your Health
+---
 
-A health-focused responsive website.
+### 5. ❤️ Empower Your Health
+
+A responsive **Health & Wellness Website** designed with Bootstrap to present health-related information in a clean, organized, and accessible layout.
 
 **Technologies:** HTML, CSS, Bootstrap
 
-### 6. Better Farming
+---
 
-A farming-related responsive website.
+### 6. 🌾 Better Farming
+
+A responsive **Agriculture & Farming Website** created to present farming-related information with a simple, modern, and user-friendly interface.
 
 **Technologies:** HTML, CSS, Bootstrap
 
@@ -109,16 +119,10 @@ src/
 
 ## ⚙️ Installation
 
-Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
 Go to the project folder:
 
 ```bash
-cd your-project-name
+cd portfolio-project-2
 ```
 
 Install dependencies:
@@ -163,8 +167,15 @@ If you would like to collaborate on a project or discuss an opportunity, feel fr
 
 Full Stack Developer
 
-Made with ❤️ using React.js.
+## ❤️ Built With
 
+Made with ❤️ using:
+
+**React.js • JavaScript • JSX • Bootstrap • CSS • Vite**
+
+## ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ star on GitHub!
+
+Your support is appreciated. ❤️
 ---
-
-⭐ If you like this project, consider giving it a **star** on GitHub!
