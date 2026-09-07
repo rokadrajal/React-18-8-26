@@ -123,22 +123,22 @@ App.jsx
 
 ## 📸 Screenshot
 
-### 🏠 Home
+### 🏠 **Home**
 ![Home](./Screenshots/Screenshot1.png)
 
-### 👩‍💻 About
+### 👩‍💻 **About**
 ![About](./Screenshots/Screenshot2.png)
 
-### 💻 Skills
+### 💻 **Skills**
 ![Skill](./Screenshots/Screenshot3.png)
 
-### 🏆 Certificates
+### 🏆 **Certificates**
 ![Certificate](./Screenshots/Screenshot4.png)
 
-### 🚀 Projects
+### 🚀 **Projects**
 ![Project](./Screenshots/Screenshot5.png)
 
-### 📩 Contact
+### 📩 **Contact**
 ![Contact](./Screenshots/Screenshot6.png)
 
 
