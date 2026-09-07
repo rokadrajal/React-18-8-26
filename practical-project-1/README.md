@@ -74,6 +74,6 @@ components
 
 ![cars](Screenshot.png)
 
-## 🔗 Link
+## 🔗 Video Link
 
 https://drive.google.com/file/d/14fbKWOFgyx_uZHWLNLE2zfqLb7vNesw0/view?usp=sharing
