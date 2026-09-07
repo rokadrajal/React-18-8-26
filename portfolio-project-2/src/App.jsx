@@ -7,12 +7,12 @@ import certi1 from "./assets/certificate1.png"
 import certi2 from "./assets/certificate2.png"
 import certi3 from "./assets/certificate3.png"
 import certi4 from "./assets/certificate4.png"
-import project1 from "./assets/Screenshot1.png"
-import project2 from "./assets/Screenshot2.png"
-import project3 from "./assets/Screenshot3.png"
-import project4 from "./assets/Screenshot4.png"
-import project5 from "./assets/Screenshot5.png"
-import project6 from "./assets/Screenshot6.png"
+import project1 from "./assets/Project1.png"
+import project2 from "./assets/Project2.png"
+import project3 from "./assets/Project3.png"
+import project4 from "./assets/Project4.png"
+import project5 from "./assets/Project5.png"
+import project6 from "./assets/Project6.png"
 import insta from "./assets/instagram.png"
 import { MdEmail } from "react-icons/md"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
@@ -25,7 +25,7 @@ function App() {
         <nav className="container d-flex gap-5 align-items-center border rounded-4 w-50 mt-3 position-absolute justify-content-center p-2">
           <div className="fs-3 fw-bolder text-white">Portfolio</div>
           <div>
-            <ul className="list-1 list-unstyled d-flex gap-4 m-0  ">
+            <ul className="list-1 list-unstyled d-flex gap-4 m-0 ">
               <li><a className=" text-decoration-none" href="#Home">Home</a></li>
               <li><a className=" text-decoration-none" href="#About">About</a></li>
               <li><a className=" text-decoration-none" href="#Skill">Skill</a></li>
@@ -54,7 +54,7 @@ function App() {
                   <li><img className="linkedin" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="" /></li>
                   <li><img className="github" src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-8630395.png?f=webp" alt="" /></li>
                 </ul>
-                <h1 className="text-white display-2 fw-bold">Hi, I'm <span style={{color:"#ff9800"}}>Rajal</span></h1>
+                <h1 className="text-white display-2 fw-bold">Hi, I'm <span style={{ color: "#ff9800" }}>Rajal</span></h1>
                 <p className=" pero ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Exercitationem obcaecati magnam saepe sit, est dolorem
                   aliquid vel et iusto alias dolorum consequatur ipsum
@@ -107,7 +107,7 @@ function App() {
       <div id="Skill" className="skill d-flex flex-column justify-content-center">
         <div className="container text-center d-flex flex-column gap-3">
           <div>
-            <h1 className="text-light">My <span style={{color:"#ff9800"}}>Skill</span></h1>
+            <h1 className="text-light">My <span style={{ color: "#ff9800" }}>Skill</span></h1>
             <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum</p>
           </div>
 
@@ -209,7 +209,7 @@ function App() {
               <div className="performance col-3">
                 <aside className="d-flex align-items-center gap-2">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/960px-React-icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="" />
-                  <p className="text-light m-0 fw-bold fs-5">React Js</p>
+                  <p className="text-light m-0 fw-bold fs-5">React.js</p>
                 </aside>
                 <aside className="d-flex  align-items-center justify-content-between">
                   <p className="text-light m-0 ">Proficiency</p>
@@ -257,7 +257,7 @@ function App() {
       <div id="Projects" className="projects ">
         <div className="container  d-flex flex-column gap-4">
           <div>
-            <h1 className="text-light text-center">My <span style={{color:"#ff9800"}}>Projects</span></h1>
+            <h1 className="text-light text-center">My <span style={{ color: "#ff9800" }}>Projects</span></h1>
             <p className="text-light text-center">A Showcase of my recent work</p>
           </div>
 
@@ -270,9 +270,9 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">React Js</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">React.js</button>
                     </div>
                     <div className="d-flex gap-2">
                       <button className="btn-5 col  border-0 px-5 py-2 rounded-2 text-white"><FaGithub /> Code</button>
@@ -288,8 +288,8 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
                       <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">JavaScript</button>
                     </div>
                     <div className="d-flex gap-2">
@@ -306,8 +306,8 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
                       <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">JavaScript</button>
                     </div>
                     <div className="d-flex gap-2">
@@ -327,8 +327,8 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
                       <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Bootstrap</button>
                     </div>
                     <div className="d-flex gap-2">
@@ -345,8 +345,8 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
                       <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Bootstrap</button>
                     </div>
                     <div className="d-flex gap-2">
@@ -363,8 +363,8 @@ function App() {
                   <p className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="d-flex flex-column gap-3">
                     <div className="btns d-flex gap-3 ">
-                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">Html</button>
-                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Css</button>
+                      <button className="btn-5 border-0 px-3 py-2 rounded-5 text-light">HTML</button>
+                      <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">CSS</button>
                       <button className="btn-5 border-0 px-3 py-1 rounded-5 text-light">Bootstrap</button>
                     </div>
                     <div className="d-flex gap-2">
@@ -419,29 +419,26 @@ function App() {
           <div className="d-flex justify-content-between align-items-center p-2">
             <div className="d-flex flex-column gap-2">
               <h3 className="text-light m-0">Portfolio</h3>
-              <p className="text-secondary m-0">Full Stack Developer</p>
+              <p className="m-0" style={{color : "rgb(180, 180, 180)"}}>Full Stack Developer</p>
             </div>
             <div className="d-flex gap-4 ">
               <div className=" social rounded-circle d-flex align-items-center justify-content-center">
-                <FaGithub className="git"/>
+                <FaGithub className="git" />
               </div>
               <div className=" social rounded-circle d-flex align-items-center justify-content-center">
-                <FaLinkedin className="git"/>
+                <FaLinkedin className="git" />
               </div>
               <div className="social rounded-circle  d-flex align-items-center justify-content-center">
-                <FaTwitter className="git"/>
+                <FaTwitter className="git" />
               </div>
             </div>
             <div>
               <p className="text-light m-0">@ 2026 Made with by ❤️ Rajal</p>
             </div>
           </div>
-
         </div>
       </footer>
     </>
-
-  
   )
 }
 

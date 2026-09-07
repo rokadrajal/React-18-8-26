@@ -162,6 +162,7 @@ nav .btn-1, .btn-2 {
 .certificate {
     width: 100%;
     height: 100vh;
+    scroll-margin-top: 80px;
 }
 .certificate .img-3 {
     width: 450px;
@@ -183,6 +184,7 @@ nav .btn-1, .btn-2 {
 .projects {
     width: 100%;
     height: 150vh;
+    scroll-margin-top: 100px;
 }
 .projects .project-1,.projects .project-2,.projects .project-3,.projects .project-4,.projects .project-5,.projects .project-6 {
     width: 350px;
@@ -279,6 +281,7 @@ nav .btn-1, .btn-2 {
 .contact{
     width: 100%;
     height: 100vh;
+    scroll-margin-top: 30px;
 }
 .contact .info{
     background-color: transparent;
@@ -327,3 +330,4 @@ footer .git{
 footer .social:hover .git{
     color: white;
 }
+
