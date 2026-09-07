@@ -28,7 +28,6 @@ This portfolio showcases my introduction, skills, certifications, projects, and 
 - HTML
 - CSS
 - Bootstrap
-- React Icons
 
 
 
