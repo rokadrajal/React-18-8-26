@@ -1,32 +1,36 @@
 # 🌐 Personal Portfolio Website
 
-A modern and responsive **Personal Portfolio Website** built using **React.js**, **JavaScript**, **JSX**, **Bootstrap**, and **CSS**.
+A modern **Personal Portfolio Website** built using **React.js**, **JavaScript**, **JSX**, **Bootstrap**, **HTML**, and **CSS**.
 
-This portfolio showcases my introduction, skills, certifications, projects, and contact information in a clean and responsive design.
+This portfolio showcases my introduction, skills, certifications, projects, and contact information in a clean design.
+
+
 
 ## ✨ Features  
 
-- 🏠 Home section with personal introduction
-- 👩‍💻 About Me section
-- 💻 Skills section with proficiency percentages
-- 🏆 Certifications & Badges section
-- 🚀 Projects showcase
-- 📩 Contact form
-- 🔗 Social media icons
-- 📱 Responsive design for desktop, tablet, and mobile
-- 🎨 Modern dark UI with orange highlights
-- ⚡ Smooth navigation between sections
+- Home section with personal introduction
+- About Me section
+- Skills section with proficiency  percentages
+- Certifications & Badges section
+- Projects showcase
+- Contact form
+- Social media icons
+- Modern dark UI with orange highlights
+- Smooth navigation between sections
+
+
 
 ## 🛠️ Technologies Used
 
 - React.js
 - JavaScript
 - JSX
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Bootstrap
 - React Icons
-- Vite
+
+
 
 ## 📚 Skills
 
@@ -39,146 +43,106 @@ This portfolio showcases my introduction, skills, certifications, projects, and 
 | JavaScript |      90.67% |
 | React JS   |        100% |
 
+
+
 ## 🚀 Projects
 
-### 1. 🚗 Car Collection
+- 1. 🚗 **Car Collection**
+  - Technologies Used : HTML , CSS , React. js 
 
-A modern and responsive **Car Collection Website** built with React JS. Users can explore different cars through visually appealing cards with detailed information.
+- 2. 🛒 **E-commerce Platform**
+  - Technologies Used : HTML , CSS , JavaScript 
 
-**Technologies:** React JS, JavaScript, HTML, CSS
+- 3. 🌦️ **Weather Application**
+  - Technologies Used : HTML , CSS , JavaScript 
 
+- 4. 🐴 **Harmony With Horses**
+  - Technologies Used : HTML , CSS , Bootstrap 
 
+- 5. ❤️ **Empower Your Health**
+  - Technologies Used : HTML , CSS ,Bootstrap 
 
-### 2. 🛒 E-commerce Platform
-
-A responsive **E-commerce Website** designed to provide a smooth and user-friendly online shopping experience with a clean product-focused interface.
-
-**Technologies:** HTML, CSS, JavaScript
-
-
-
-### 3. 🌦️ Weather Application
-
-A simple and responsive **Weather Website** that provides weather-related information through an easy-to-use and clean interface.
-
-**Technologies:** HTML, CSS, JavaScript
+- 6. 🌾 **Better Farming**
+  - Technologies Used : HTML , CSS ,Bootstrap 
 
 
 
-### 4. 🐴 Harmony With Horses
+## 🏆 Certificates
 
-A modern and responsive website developed using **Bootstrap**, featuring a clean layout and user-friendly design for a horse-related organization.
+### 🥇 Foundations of IT Infrastructure Free Course
+![](./src/assets/certificate1.png)
 
-**Technologies:** HTML, CSS, Bootstrap
+### 🥇 Introduction to Computer Networking
+![](./src/assets/certificate2.png)
+
+### 🥇 Vue.js
+![](./src/assets/certificate3.png)
+
+### 🥇 Full Stack Development with MERN
+![](./src/assets/certificate4.png)
 
 
-
-### 5. ❤️ Empower Your Health
-
-A responsive **Health & Wellness Website** designed with Bootstrap to present health-related information in a clean, organized, and accessible layout.
-
-**Technologies:** HTML, CSS, Bootstrap
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 2d2516f (change)
-### 6. 🌾 Better Farming
-
-A responsive **Agriculture & Farming Website** created to present farming-related information with a simple, modern, and user-friendly interface.
-
-**Technologies:** HTML, CSS, Bootstrap
-
-## 🏆 Certifications
-
-The portfolio includes a dedicated **Certifications & Badges** section to showcase completed certifications and achievements.
 
 ## 📂 Project Structure
 
-```text
-src/
-├── assets/
-│   ├── image1.png
-│   ├── image2.png
-│   ├── image3.png
-│   ├── image4.png
-│   ├── certificate1.png
-│   ├── certificate2.png
-│   ├── certificate3.png
-│   ├── certificate4.png
-│   ├── Screenshot1.png
-│   ├── Screenshot2.png
-│   ├── Screenshot3.png
-│   ├── Screenshot4.png
-│   ├── Screenshot5.png
-│   ├── Screenshot6.png
-│   └── instagram.png
-│
-├── App.jsx
-├── App.css
-└── main.jsx
+- src/
+  - assets/
+    - image1.png
+    - image2.png
+    - image3.png
+    - image4.png
+    - certificate1.png
+    - certificate2.png
+    - certificate3.png
+    - certificate4.png
+    - Project1.png
+    - Project2.png
+    - Project3.png
+    - Project4.png
+    - Project5.png
+    - Project6.png
+    - instagram.png
+  - App.jsx
+  - App.css
+  - main.jsx
+- README.md  
+
+
+
+## 🔄 Project Flow
+
+```
+index.html
+   ↓
+main.jsx
+   ↓
+App.jsx
+   ↓
+   UI
 ```
 
-## ⚙️ Installation
 
-Go to the project folder:
+## 📸 Screenshot
 
-```bash
-cd portfolio-project-2
-```
+### 🏠 Home
+![Home](./Screenshots/Screenshot1.png)
 
-Install dependencies:
+### 👩‍💻 About
+![About](./Screenshots/Screenshot2.png)
 
-```bash
-npm install
-```
+### 💻 Skills
+![Skill](./Screenshots/Screenshot3.png)
 
-Start the development server:
+### 🏆 Certificates
+![Certificate](./Screenshots/Screenshot4.png)
 
-```bash
-npm run dev
-```
+### 🚀 Projects
+![Project](./Screenshots/Screenshot5.png)
 
-Open the local development URL shown in your terminal.
+### 📩 Contact
+![Contact](./Screenshots/Screenshot6.png)
 
-## 📱 Responsive Design
 
-The portfolio is designed to work across:
+## 🔗 Video Link
 
-- 💻 Desktop
-- 📱 Mobile
-- 📲 Tablet
-
-Responsive Bootstrap classes and CSS media queries are used to adjust the layout for different screen sizes.
-
-## 📸 Portfolio Sections
-
-The website contains:
-
-**Home → About → Skills → Certificates → Projects → Contact**
-
-The navigation menu links directly to each section using section IDs.
-
-## 📩 Contact
-
-If you would like to collaborate on a project or discuss an opportunity, feel free to contact me through the portfolio's contact section.
-
-## 👩‍💻 Author
-
-**Rajal**
-
-Full Stack Developer
-
-## ❤️ Built With
-
-Made with ❤️ using:
-
-**React.js • JavaScript • JSX • Bootstrap • CSS • Vite**
-
-## ⭐ Support
-
-If you like this project, consider giving the repository a ⭐ star on GitHub!
-
-Your support is appreciated. ❤️
----
+https://drive.google.com/file/d/1WrzHeXEN37WyVKShZ9cBfBTPXtmtXpjS/view?usp=sharing
