@@ -69,16 +69,16 @@ This portfolio showcases my introduction, skills, certifications, projects, and 
 ## 🏆 Certificates
 
 ### 🥇 Foundations of IT Infrastructure Free Course
-<img src="./src/assets/certificate1.png" width="300">
+<img src="./src/assets/certificate1.png" width="500">
 
 ### 🥇 Introduction to Computer Networking
-<img src="./src/assets/certificate2.png" width="300">
+<img src="./src/assets/certificate2.png" width="500">
 
 ### 🥇 Vue.js
-<img src="./src/assets/certificate3.png" width="300">
+<img src="./src/assets/certificate3.png" width="500">
 
 ### 🥇 Full Stack Development with MERN
-<img src="./src/assets/certificate4.png" width="300">
+<img src="./src/assets/certificate4.png" width="500">
 
 
 
