@@ -395,12 +395,12 @@ function App() {
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
 
               <div className="info col-lg-6 d-flex flex-column gap-3 p-3">
-                <div className="d-flex gap-3">
-                  <input type="text" placeholder="First Name" />
-                  <input type="text" placeholder="Last Name" />
+                <div className="d-flex gap-3" >
+                  <input style={{width : "50%"}} type="text" placeholder="First Name" />
+                  <input style={{width : "50%"}} type="text" placeholder="Last Name" />
                 </div>
-                <input type="text" placeholder="Email Address" />
-                <input type="text" placeholder="Phone Number" />
+                <input type="email" placeholder="Email Address" />
+                <input type="number" placeholder="Phone Number" />
                 <textarea name="text" id="" placeholder="Your Message" rows="5"></textarea>
                 <button className="btn-8 border-0 rounded-2 text-light py-2 fw-bold">Send Message</button>
 
