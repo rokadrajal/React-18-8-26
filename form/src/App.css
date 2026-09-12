@@ -1,0 +1,71 @@
+section{
+  background-color: #7dc5c3;
+   /* background-color: rgb(196, 181, 181); */
+  padding: 120px;
+}
+
+form{
+  background-color: rgb(255, 255, 255);
+  float: left;
+  box-shadow: 2px 2px 8px rgb(231, 231, 231);
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  gap: 13px;
+  transition: all 1s ease-in-out 0s;
+}
+
+form:hover{
+  transform: scale(1.02);
+}
+
+.detail{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.detail main{
+  position: relative;
+}
+
+.detail main input{
+  width: 100%;
+  padding: 10px 10px 10px 50px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 5px gainsboro;
+}
+
+.detail main:nth-child(1){
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.detail main:nth-child(2){
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.detail main:nth-child(3){
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.detail main:nth-child(4){
+  flex-basis: 100%;
+}
+
+.detail main:nth-child(5){
+  flex-basis: 100%;
+}
+
+.detail main:nth-child(6){
+  flex-basis: 100%;
+}
+
+.detail main button{
+  /* flex-basis: 100%; */
+  flex-grow: 1;
+}
