@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+.header {
+  width: 250px;
+  min-width: 250px;
+  min-height: 100vh;
+  flex-shrink: 0;
+
+  background-color: white;
+  padding: 20px;
+
+  box-shadow: 2px 0 10px lightgray;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header li a {
+  display: block;
+  padding: 12px;
+
+  text-decoration: none;
+  color: #333;
+
+  border-radius: 8px;
+}
+
+.header li a:hover {
+  background-color: #f1f1f1;
+  color: #e31837;
+}
+
+/* LOGIN + CART */
+
+.bottom {
+  margin-top: auto;
+}
+
+.bottom button {
+  width: 100%;
+  padding: 12px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s ease-in-out 0s;
+}
+
+.bottom button:hover {
+  transform: scale(1.05);
+}
+
+.bottom .cart {
+  background-color: #e31837;
+  color: white;
+  border: none;
+}
+
+
+/* HOME */
+
+.dominos {
+  flex: 1;
+  min-width: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.home {
+  min-height: 100vh;
+  padding: 50px;
+
+  background-color: #f5f5f5;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-content {
+  width: 50%;
+}
+
+.home-content .h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #e31837;
+}
+
+.home-content .h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home-content p {
+  font-size: 20px;
+  padding: 20px 0px;
+  color: #555;
+}
+
+.home-content button {
+  padding: 14px 30px;
+
+  background-color: #e31837;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease-in-out 0s;
+}
+
+.home-content button:hover {
+  transform: scale(1.05);
+}
+
+.home-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.home-image img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0px;
+  transition: all 1s ease-in-out 0s;
+}
+
+.home-image img:hover {
+  transform: scale(1.10);
+}
+
+
+/* pizza */
+
+.pizza {
+  padding: 30px;
+}
+
+.pizza h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.pizza-card {
+  width: 280px;
+  padding: 18px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.pizza-card:hover {
+  transform: translateY(-6px);
+}
+
+.pizza-card h2 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.pizza-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.pizza-card h3 {
+  font-size: 20px;
+  margin: 12px 0;
+}
+
+.pizza-card p {
+  color: #666;
+  line-height: 1.5;
+}

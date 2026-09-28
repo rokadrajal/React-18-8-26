@@ -1,0 +1,68 @@
+{
+  "blogs": [
+    {
+      "id": "3",
+      "title": "HTML for Beginners",
+      "author": "Amit Patel",
+      "description": "Learn HTML tags and create web pages.",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "4",
+      "title": "CSS Grid Layout",
+      "author": "Priya Mehta",
+      "description": "Learn how to create responsive layouts using CSS Grid.",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "5",
+      "title": "Bootstrap Tutorial",
+      "author": "Rahul Shah",
+      "description": "Learn how to build responsive websites using Bootstrap.",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "6",
+      "title": "Frontend Development",
+      "author": "Karan Patel",
+      "description": "Learn important frontend development technologies.",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "7",
+      "title": "Backend Development",
+      "author": "Pooja Patel",
+      "description": "Understand servers and APIs in backend development.",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "8",
+      "title": "Web Development Tips",
+      "author": "Vishal Shah",
+      "description": "Useful tips to improve your web development skills.",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "9",
+      "title": "Responsive Design",
+      "author": "Mehul Patel",
+      "description": "Learn how to make websites responsive on all devices.",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "10",
+      "title": "Full Stack Development",
+      "author": "Jay Mehta",
+      "description": "Learn frontend, backend and database technologies.",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "fgh",
+      "author": "hjk",
+      "description": "kgthj",
+      "date": "vbnm",
+      "id": "EkCLEQscta0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

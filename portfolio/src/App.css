@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-section {
+  width: 100%;
+  background: #0f172a;
+  padding: 15px 0;
+}
+.header-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: 0.3s;
+}
+.header-link:hover {
+  color: #0dcaf0 !important;
+}
+.navbar-brand {
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  color: #0dcaf0 !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.home-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right,
+  #172554 0%,
+  #312e81 45%,
+  #0f172a 100%);
+}
+.profile-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 3px solid #8b5cf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0 0 40px rgba(139, 92, 246, 0.4);
+}
+.profile-circle span {
+  font-size: 80px;
+  color: #06b6d4;
+  font-weight: bold;
+}
+.home-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right,
+  #172554 0%,
+  #312e81 45%,
+  #0f172a 100%);
+  display: flex;
+  align-items: center;
+}
+.about-box {
+  width: 280px;
+  height: 280px;
+  margin: auto;
+  border: 2px solid #8b5cf6;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 35px rgba(139, 92, 246, 0.3);
+}
+.about-box h2 {
+  font-size: 80px;
+  color: #06b6d4;
+}
+.about-box p {
+  color: white;
+  font-size: 20px;
+}
+
+.skills-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #172554 0%,
+    #312e81 45%,
+    #0f172a 100%
+  );
+
+  display: flex;
+  align-items: center;
+}
+.skill-card {
+  min-height: 280px;
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.15);
+  transition: 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.35);
+}
+.skill-icon {
+  font-size: 45px;
+}
+.progress {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.progress-bar {
+  background-color: #0dcaf0;
+}
+.project-section {
+  min-height: 180vh;
+  background: linear-gradient(
+    to bottom right,
+    #172554 0%,
+    #312e81 45%,
+    #0f172a 100%
+  );
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.project-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+   box-shadow: 2px 2px 20px rgba(139, 92, 246, 0.35);
+}
+.project-icon {
+  width: 100%;
+  height: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.project{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.certificate-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #172554 0%,
+    #312e81 45%,
+    #0f172a 100%
+  );
+
+  display: flex;
+  align-items: center;
+}
+.certificate-card {
+  min-height: 300px;
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.15);
+  transition: 0.3s;
+}
+.certificate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.35);
+}
+.certificate-icon {
+  font-size: 45px;
+}
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #172554 0%,
+    #312e81 45%,
+    #0f172a 100%
+  );
+
+  display: flex;
+  align-items: center;
+}
+.contact-card {
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.15);
+}
+.contact-card input,
+.contact-card textarea {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.contact-card input::placeholder,
+.contact-card textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-card input:focus,
+.contact-card textarea:focus {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: #0dcaf0;
+  box-shadow: none;
+}
+
+.footer-section {
+  width: 100%;
+  background: #0f172a;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-link:hover {
+  color: #0dcaf0;
+}
+.footer-section hr {
+  margin: 0;
+}
