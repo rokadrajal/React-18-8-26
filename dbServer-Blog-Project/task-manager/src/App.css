@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section ul li .link{
+    color: rgb(164, 163, 163);
+}
+
+section ul li .link:hover{
+    color: white;
+}

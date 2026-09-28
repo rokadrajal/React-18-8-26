@@ -1,0 +1,85 @@
+{
+  "blog": [
+    {
+      "id": "1",
+      "title": "The Centrifuges Are in Pickaxe Mountain for a Reason",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/09/pickaxe-mountain-toi-640x400.jpg",
+      "author": "Celeo Ramirez",
+      "description": "On September 22, speaking to Arab and Muslim leaders on the sidelines of the United Nations General Assembly, Donald Trump returned to a nuclear site that has increasingly occupied American and Israeli attention. “We may have to blow up...",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "3",
+      "title": "Hear, O Israel: Choose Healing over Hate",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/09/Cartoon-satire-640x400.png",
+      "author": "Dan Savery Raz",
+      "description": "Ben Gvir and Smotrich must be ousted for this recovery to start.  Where were you on September 11, 2001, or October 7, 2023? These are commonly asked questions, but do you remember where you were on November 2, 2022? This...",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "4",
+      "title": "Standing Against Ben Gvir’s Yom Kippur Death Wish",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2023/07/IMG_3816-640x400.jpeg",
+      "author": "Michael Zoosman",
+      "description": "Just hours before the start of Yom Kippur, the holiest day of the year in the Jewish calendar, Israeli National Security Minister Itamar Ben Gvir raised the possibility of applying the death penalty to a person whom the Jerusalem...",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "5",
+      "title": "On Yom Kippur, see Israel in both the darkness and the light",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/09/AFP__20260622__B7UU4FX__v1__HighRes__PalestinianIsraelConflictWestbankSettlers-640x400-1-640x400.webp",
+      "author": "Ariel Beery",
+      "description": "This year, let us acknowledge the terrible acts our People have committed as well as the efforts of those struggling courageously to stop them  Tonight, while we stand amongst our communities and put fist to chest to account for the...",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "6",
+      "title": "When Democracy Forgets Its Jews",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/09/TOI_CanadaRemember-1-640x400.png",
+      "author": "Natasha H. Pein",
+      "description": "I escaped a country that marked Jews. I never imagined Canada would forget how to protect them.    Look at the photograph of the little girl holding a Soviet passport. That girl is me.    In the Soviet Union, your passport did not merely...",
+      "date": "2026-09-4"
+    },
+    {
+      "id": "7",
+      "title": "The Mitzvah of the Dropped Plan",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/08/Fiesta-Inesperada-640x400.png",
+      "author": "Alejandra Barav",
+      "description": "What our canceled summer vacation taught me about catching unexpected light.    We had the passports sitting on the counter, the itineraries printed out, and that sweet daydream of a family summer in Europe. We were ready to wander down cobblestone...",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "8",
+      "title": "The Ship that Nearly Divided a Nation",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/08/Ki-Tavo-The-Ship-that-nearly-divided-a-nation-640x400.jpg",
+      "author": "Yankie Denburg",
+      "description": "It was June of 1948. The State of Israel was barely five weeks old. Arab armies were attacking from every direction and the Jewish people were fighting for their very survival.    It was then, on a beach in Tel Aviv,...",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "9",
+      "title": "‘You May Not Hide Yourself’: The Torah’s Call to Ethical Responsibility",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/08/f6367686-4a89-4df2-acd8-84f2a2a51de1-e1787168554846-640x400.jpg",
+      "author": "Philip Goldwasser",
+      "description": "Parashat Ki Teitzei contains more mitzvot than any other parashah in the Torah—traditionally counted as seventy-four. Its commandments cover an astonishing range of life: the laws of warfare; the obligation to pay a worker on time; the requirement to...",
+      "date": "2026-08-21"
+    },
+    {
+      "title": "74 mitzvot, four men, one possible match",
+      "author": "Talyah Ginsberg",
+      "img": "https://static-cdn.toi-media.com/blogs/uploads/2026/08/ChatGPT-Image-Aug-22-2026-12_04_19-PM-640x400.png",
+      "description": "Parshat Ki Teitzei has plenty to say about relationships. CoronaCrush gives you seven minutes to figure one out",
+      "date": "2026-08-20",
+      "id": "10"
+    },
+    {
+      "title": "The Future of Web Development",
+      "author": "Alex Johnson",
+      "img": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "description": "Web development is continuously evolving with new technologies and tools. Developers can build faster, better, and more interactive websites using modern technologies like React, JavaScript, and APIs.",
+      "date": "2026-08-28",
+      "id": "wswD2sCF8uE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
