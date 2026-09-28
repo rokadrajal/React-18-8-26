@@ -25,11 +25,19 @@ A simple Blog Management Application built using **React.js,Bootstrap,CSS and JS
 
 ## 📁 Project Structure
 
-- src/
-  - App.css
-  - App.jsx
-  - main.jsx
-- README.md
+- dbServer-Blog-Project/
+  - screenshots/
+    - Screenshot1.png
+    - Screenshot2.png
+    - Screenshot3.png
+    - Screenshot4.png
+
+  - src/
+    - App.css
+    - App.jsx
+    - main.jsx  
+
+  - README.md
 
 ## 📝 Blog Fields
 
@@ -40,7 +48,7 @@ A simple Blog Management Application built using **React.js,Bootstrap,CSS and JS
 - Date
 
 
-## 📸 Screenshot
+## 📸 Screenshots
 
 ### 🏠 All Blogs
 ![All Blogs](screenshots/Screenshot1.png)
