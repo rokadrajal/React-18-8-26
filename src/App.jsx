@@ -105,7 +105,7 @@ function App() {
             data.map((element, index) => {
               return (
                 <div className="col-lg-6 col-md-12" key={index}>
-                  <div className="card shadow border-0 h-100 rounded-4 bg-dark text-light">
+                  <div className="card  border-0 h-100 rounded-4 bg-dark text-light">
 
                     <div className="card-body">
 
