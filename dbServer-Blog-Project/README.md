@@ -1,6 +1,6 @@
 # ⚛️ React Blog Project
 
-A simple Blog Management Application built using React.js, Bootstrap, and JSON Server.
+A simple Blog Management Application built using **React.js,Bootstrap,css and JSON Server**.
 
 ## ✨ Features
 
