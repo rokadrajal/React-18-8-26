@@ -1,0 +1,66 @@
+# ⚛️ React Blog Project
+
+A simple Blog Management Application built using React.js, Bootstrap, and JSON Server.
+
+## ✨ Features
+
+- Add new blog
+- View all blogs
+- Edit existing blog
+- Delete blog
+- Blog title, author, image, description and date
+- Responsive card layout
+- Two blog cards per row
+- Form for adding and editing blogs
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
+- JSON Server
+- Vite
+
+## 📁 Project Structure
+
+- src/
+  - App.css
+  - App.jsx
+  - main.jsx
+- README.md
+
+## 📝 Blog Fields
+
+- Title
+- Author
+- Image URL
+- Description
+- Date
+
+
+## 📸 Screenshot
+
+### 🏠 All Blogs
+![All Blogs](screenshots/Screenshot1.png)
+
+### ➕ Add Blog
+![Add Blog](screenshots/Screenshot2.png)
+
+### ✏️ Edit Blog
+![Edit Blog](screenshots/Screenshot3.png)
+
+### 🗑️ Delete Blog
+![Delete Blog](screenshots/Screenshot4.png)
+
+## 🔗 API
+
+The project uses JSON Server as a backend.
+
+```
+http://localhost:3000/blog
+```
+
+
+## 🔗 Video Link
