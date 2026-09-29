@@ -73,4 +73,4 @@ http://localhost:3000/blog
 
 ## 🔗 Video Link
 
-https://drive.google.com/file/d/1fzPFw6LmkyL0Q_IHKeNDSC_ADXUtLWC2/view?usp=sharing
+https://drive.google.com/file/d/1LnHoEMZrqHd8EjChj6XDVVb1j3TrV24S/view?usp=sharing
