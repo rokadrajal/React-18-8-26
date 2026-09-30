@@ -1,0 +1,84 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Under the hood of MDN's new frontend",
+      "author": "Leo McArdle",
+      "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "description": "A detailed look at MDN's frontend architecture, including its content pipeline, server-side rendering, React usage, and Web Components.",
+      "date": "2026-04-08"
+    },
+    {
+      "id": 2,
+      "title": "Introducing the MDN MCP server",
+      "author": "MDN Team",
+      "img": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "description": "MDN introduces an MCP server that brings documentation and browser compatibility data directly into editors and coding environments.",
+      "date": "2026-06-15"
+    },
+    {
+      "id": 3,
+      "title": "A beginner-friendly guide to view transitions in CSS",
+      "author": "Yash Raj Bharti",
+      "img": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "description": "Learn how CSS view transitions can be used to create smooth animated navigation experiences for web applications.",
+      "date": "2025-10-09"
+    },
+    {
+      "id": 4,
+      "title": "Image formats: Codecs and compression tools",
+      "author": "Polina Gurtovaia",
+      "img": "https://images.unsplash.com/photo-1561070791-2526d30994b5",
+      "description": "An exploration of image codecs and compression techniques used to reduce image size while maintaining visual quality.",
+      "date": "2025-11-05"
+    },
+    {
+      "id": 5,
+      "title": "Launching MDN's new front end",
+      "author": "MDN Team",
+      "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "description": "MDN explains the improvements and changes introduced with its redesigned frontend experience.",
+      "date": "2025-08-19"
+    },
+    {
+      "id": 6,
+      "title": "Celebrating 20 years of MDN",
+      "author": "Joe Walker",
+      "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "description": "A look back at the history and evolution of MDN Web Docs and its role in helping developers learn the web.",
+      "date": "2025-07-23"
+    },
+    {
+      "id": 7,
+      "title": "Introducing Baseline: a unified view of stable web features",
+      "author": "Hermina Condei",
+      "img": "https://images.unsplash.com/photo-1504639725590-34d0984388bd",
+      "description": "An introduction to Baseline and how it helps developers understand which web platform features are ready for use across browsers.",
+      "date": "2023-05-10"
+    },
+    {
+      "id": 8,
+      "title": "How :not() chains multiple selectors",
+      "author": "Dipika Bhattacharya",
+      "img": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "description": "A practical explanation of how the CSS :not() pseudo-class works when multiple selectors are combined.",
+      "date": "2023-05-05"
+    },
+    {
+      "id": 9,
+      "title": "How we build web.dev and use Web Components",
+      "author": "web.dev Team",
+      "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      "description": "An engineering look at how web.dev is built using static content, modern JavaScript, Web Components, and a build pipeline.",
+      "date": "2020-01-01"
+    },
+    {
+      "id": 10,
+      "title": "April 2026 Baseline monthly digest",
+      "author": "Jeremy Wagner",
+      "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      "description": "A monthly overview of new web platform capabilities, CSS features, accessibility developments, and Baseline updates.",
+      "date": "2026-05-27"
+    }
+  ]
+}
