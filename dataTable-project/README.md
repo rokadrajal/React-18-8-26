@@ -28,10 +28,16 @@ This project fetches employee data from a JSON Server API and displays it in a r
 
 
 - dataTable-project/
+    - screenshots/
+       - Screenshot1.png
+       - Screenshot2.png
+       - Screenshot3.png
+       - Screenshot4.png
 
     - src/
        - App.jsx
        - main.jsx
+       
     - db.json
     - README.md
 
