@@ -80,7 +80,7 @@ function App() {
                     <div className="d-flex align-items-center gap-2">
                       <span className="fw-bold">Per Page Rows:</span>
 
-                      <select className="form-select form-select-sm w-auto" onChange={(e) => { setPerPagesData(e.target.value) }}>
+                      <select className="form-select form-select-sm w-auto" onChange={(e) => {setPerPagesData(e.target.value) }}>
                         <option>5</option>
                         <option>10</option>
                         <option>25</option>
