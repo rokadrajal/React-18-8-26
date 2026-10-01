@@ -1,16 +1,71 @@
-# React + Vite
+# 👨‍💼 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Employee Management System** built using **React.js, JavaScript ,Bootstrap, and JSON Server**.
 
-Currently, two official plugins are available:
+This project fetches employee data from a JSON Server API and displays it in a responsive table with pagination.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Display employee data in a table
+- Fetch data using `fetch()` API
+- Responsive table using Bootstrap
+- Pagination
+- Select number of rows per page
+- Previous and Next buttons
+- Shows current page and total pages
+- Shows total employee entries
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Bootstrap
+- JSON Server
+- HTML
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+
+- dataTable-project/
+
+    - src/
+       - App.jsx
+       - main.jsx
+    - db.json
+    - README.md
+
+## 📊 Employee Fields
+
+- Id
+- Name
+- Age
+- Email
+- Department
+- Salary
+- City
+
+## 📸 Screenshots
+
+### 📄 5 Rows Per Page
+![5 rows per page](screenshots/Screenshot1.png)
+
+### 📄 10 Rows Per Page
+![10 rows per page](screenshots/Screenshot2.png)
+
+### 📄 Pagination - Next
+![next](screenshots/Screenshot3.png)
+
+### 📄 Pagination - Previous
+![previous](screenshots/Screenshot4.png)
+
+
+
+## 📌 API
+
+The project uses JSON Server as a backend.
+
+```text
+http://localhost:3000/Employees
+```
+## 🔗 Video Link

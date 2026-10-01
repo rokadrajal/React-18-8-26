@@ -30,22 +30,22 @@ function App() {
 
   return (
     <>
-      <div className="container d-flex justify-content-center align-items-center mb-4">
-        <h2 className="fw-bold text-dark pt-4">
+      <div className="container d-flex justify-content-center align-items-center ">
+        <h2 className="fw-bold text-dark pt-4 fs-1">
           Employee Management
         </h2>
       </div>
 
       <div className="container mt-4">
         <div className="table-responsive shadow rounded">
-          <table className="table table-bordered table-hover table-striped text-center align-middle mb-0">
+          <table className="table table-bordered table-hover table-striped text-center mb-0">
 
             <thead className="table-dark">
               <tr>
                 <th>EMPLOYEE ID</th>
                 <th>NAME</th>
                 <th>AGE</th>
-                <th>EMAIL</th>
+                <th>EMAIL</th>  
                 <th>DEPARTMENT</th>
                 <th>POSITION</th>
                 <th>SALARY</th>
@@ -78,10 +78,11 @@ function App() {
                   <div className="d-flex justify-content-between align-items-center flex-wrap gap-3">
 
                     <div className="d-flex align-items-center gap-2">
-                      <span className="fw-bold">Per Pages Row:</span>
+                      <span className="fw-bold">Per Page Rows:</span>
 
                       <select className="form-select form-select-sm w-auto" onChange={(e) => { setPerPagesData(e.target.value) }}>
                         <option>5</option>
+                        <option>10</option>
                         <option>25</option>
                         <option>50</option>
                         <option>75</option>
