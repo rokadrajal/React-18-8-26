@@ -2,7 +2,7 @@ function Home({ Data }) {
     return (
         <section>
             {
-                data.map((data) => {
+                Data.map((data) => {
                     return (
                         <div>
                             <h1>Name : {data.studentName}</h1>
