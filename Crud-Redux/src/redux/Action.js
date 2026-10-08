@@ -4,10 +4,10 @@ export function addProduct(product){
         payload : product
     }
 }
-export function editProduct(_){
+export function editProduct(product){
     return{
         type : "EDIT_PRODUCT",
-        payload :_
+        payload :product
     }
 }
 export function deleteProduct(id){

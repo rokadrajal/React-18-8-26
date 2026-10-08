@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { addProduct } from "./redux/Action";
+import { addProduct, deleteProduct, editProduct } from "./redux/Action";
 import { useDispatch, useSelector } from "react-redux";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   const [category, setCategory] = useState("");
   const [price, setPrice] = useState("");
   const [quantity, setQuantity] = useState("");
+  const [id , setId] = useState(null);
 
   const dispatch = useDispatch();
 
@@ -17,16 +18,57 @@ function App() {
   const handlesubmit = (e) => {
     e.preventDefault();
 
-    dispatch(
-      addProduct({
-        id: data.length + 1,
-        name: name,
-        category: category,
-        price: price,
-        quantity: quantity,
-      })
-    );
+    if(name == "" || category == "" || price == "" || quantity == ""){
+      return
+    }
+
+    if(!id){
+      dispatch(
+        addProduct({
+          id: data.length + 1,
+          name: name,
+          category: category,
+          price: price,
+          quantity: quantity,
+        })
+      );
+    }
+    else
+    {
+      dispatch(
+        editProduct({
+          id: id,
+          name: name,
+          category: category,
+          price: price,
+          quantity: quantity,
+        }));
+    }
+
+    setName("");
+    setCategory("");
+    setPrice("");
+    setQuantity("");
+    setId(null);
+
   };
+
+  const handleEdit = (element)=>{
+    setName(element.name);
+    setCategory(element.category);
+    setPrice(element.price);
+    setQuantity(element.quantity);
+    setId(element.id);
+  }
+
+  const handleReset = ()=>{
+    setName("");
+    setCategory("");
+    setPrice("");
+    setQuantity("");
+    setId(null);
+  }
+
 
   return (
     <>
@@ -40,6 +82,7 @@ function App() {
         <form className="card p-4 shadow mb-5">
 
           <div className="row">
+            <h1 className="mb-4">{(!id) ? "Add Product" : "Edit Product"}</h1>
 
             <div className="col-md-6 mb-3">
               <label className="form-label">Product Name</label>
@@ -47,6 +90,7 @@ function App() {
                 type="text"
                 className="form-control"
                 placeholder="Enter Product Name"
+                value={name}
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
@@ -59,6 +103,7 @@ function App() {
                 type="text"
                 className="form-control"
                 placeholder="Enter Product Category"
+                 value={category}
                 onChange={(e) => {
                   setCategory(e.target.value);
                 }}
@@ -71,6 +116,7 @@ function App() {
                 type="number"
                 className="form-control"
                 placeholder="Enter Product Price"
+                 value={price}
                 onChange={(e) => {
                   setPrice(e.target.value);
                 }}
@@ -83,6 +129,7 @@ function App() {
                 type="number"
                 className="form-control"
                 placeholder="Enter Product Quantity"
+                value={quantity}
                 onChange={(e) => {
                   setQuantity(e.target.value);
                 }}
@@ -97,12 +144,12 @@ function App() {
               className="btn btn-primary me-2"
               onClick={handlesubmit}
             >
-              Add Product
+              {(!id) ? "Add Product" : "Edit Product"}
             </button>
 
             <button
               type="reset"
-              className="btn btn-secondary"
+              className="btn btn-secondary"  onClick={()=>{handleReset()}}
             >
               Reset
             </button>
@@ -137,11 +184,11 @@ function App() {
                       <td>{element.quantity}</td>
 
                       <td>
-                        <button className="btn btn-warning btn-sm me-2">
+                        <button className="btn btn-warning btn-sm me-2"  onClick={()=>{handleEdit(element)}}>
                           Edit
                         </button>
 
-                        <button className="btn btn-danger btn-sm">
+                        <button className="btn btn-danger btn-sm"  onClick={()=>{dispatch(deleteProduct(element.id))}}>
                           Delete
                         </button>
                       </td>

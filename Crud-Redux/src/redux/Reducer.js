@@ -46,11 +46,15 @@ const reducer = (state = initialData, action) => {
             }
         case "EDIT_PRODUCT":
             return {
-
+                ...state , products : state.products.map((element)=>{
+                       return ((element.id == action.payload.id) ? action.payload : element)
+                })
             }
         case "DELETE_PRODUCT":
             return {
-
+                ...state , products : state.products.filter((element)=>{
+                       return element.id != action.payload
+                })
             }
 
         default:
