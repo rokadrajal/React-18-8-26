@@ -28,7 +28,7 @@ function StudentForm({ editStudent, setEditStudent }) {
             setGrade(editStudent.grade || "");
             setAge(String(editStudent.age || ""));
             setClass(editStudent.class || "");
-            setPhone(editStudent.type_of_phone || "");
+            setPhone(editStudent.phone || "");
             setImage(editStudent.image || "");
         }
     }, [editStudent]);

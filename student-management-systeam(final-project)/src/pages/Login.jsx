@@ -1,37 +1,42 @@
 import user from '../assets/students.png'
 import logo from '../assets/logo.png'
-import { MdOutlineEmail , MdOutlineLock } from 'react-icons/md'
-import {FaEye , FaEyeSlash} from 'react-icons/fa'
+import { MdOutlineEmail, MdOutlineLock } from 'react-icons/md'
+import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 function Login() {
-    const [showPassword,setShowPassword]= useState(false);
-    const [email,setEmail] = useState("");
-    const [password,setPassword] = useState("");
-    const [data , setData] = useState([]);
+    const [showPassword, setShowPassword] = useState(false);
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [data, setData] = useState([]);
     const navigate = useNavigate();
     const API = "http://localhost:3000/students";
+    
 
-    const handlesubmit = (e)=>{
+    const handlesubmit = (e) => {
         e.preventDefault();
 
-        axios.get(API).then((response)=>{
+        axios.get(API).then((response) => {
+
             setData(response.data)
+
         })
 
-        data.map((element)=>{
-            if(element.email == email && element.password == password){
-                localStorage.setItem("token" , element.id);
+        data.map((element) => {
+            if (element.email == email && element.password == password) {
+                localStorage.setItem("token", element.id);
                 navigate("/");
             }
         })
+
+
     }
 
-    const handleDemo = (element)=>{
+    const handleDemo = (element) => {
         navigate("/");
-        localStorage.setItem("token" , element.id);
+        localStorage.setItem("token", element.id);
     }
 
     return (
@@ -40,7 +45,7 @@ function Login() {
                 <div className="row d-flex min-vh-100">
                     <div className="left col-12 col-md-5 d-flex flex-column justify-content-around align-items-center py-4 py-md-5 gap-2" style={{ backgroundColor: " rgba(184, 213, 246, 0.306)" }}>
                         <div className='d-flex gap-3'>
-                                <img src={logo} alt="" style={{ width: "80px", height: "75px" , objectFit : "contain" }} />
+                            <img src={logo} alt="" style={{ width: "80px", height: "75px", objectFit: "contain" }} />
                             <div className="d-flex flex-column align-items-start text-start">
                                 <h1 className="fw-bold text-center m-0">StudentPro</h1>
                                 <p className="text-secondary fs-5">Student Management System</p>
@@ -65,7 +70,7 @@ function Login() {
                                     <div>
                                         <label style={{ fontSize: "18px" }}>Email Address</label><br />
                                         <div className="position-relative">
-                                            <MdOutlineEmail size={"20px"} className="position-absolute  text-secondary" style={{ left: "12px", top: "17px" }} />
+                                            <MdOutlineEmail size={"20px"} className="position-absolute  text-secondary " style={{ left: "12px", top: "17px" }} />
                                             <input type="email" value={email} placeholder="Enter your email" className=" p-2 mt-1 rounded-3 px-5" style={{ border: "2px solid rgba(184, 213, 246, 0.55)", width: "100%" }} onChange={(e) => setEmail(e.target.value)} />
                                         </div>
                                     </div>
@@ -73,8 +78,8 @@ function Login() {
                                         <label style={{ fontSize: "18px" }}>Password</label><br />
                                         <div className="position-relative">
                                             <MdOutlineLock size={"20px"} className="position-absolute  text-secondary" style={{ left: "12px", top: "17px" }} />
-                                            <input type={showPassword ? "text" : "password"} value={password} placeholder="Enter your password" className=" p-2 mt-1 rounded-3 px-5" style={{ border: "2px solid rgba(184, 213, 246, 0.55)", width: "100%" }} onChange={(e) => setPassword(e.target.value)} />
-                                            <span className="position-absolute" style={{ right: "20px", top: "14px" , cursor : "pointer" }} onClick={()=>{setShowPassword(!showPassword)}}>{showPassword ? <FaEyeSlash/> : <FaEye/>}</span>
+                                            <input type={showPassword ? "text" : "password"} value={password} placeholder="Enter your password" className=" p-2 mt-1 rounded-3 px-5 " style={{ border: "2px solid rgba(184, 213, 246, 0.55)", width: "100%" }} onChange={(e) => setPassword(e.target.value)} />
+                                            <span className="position-absolute" style={{ right: "20px", top: "14px", cursor: "pointer" }} onClick={() => { setShowPassword(!showPassword) }}>{showPassword ? <FaEyeSlash /> : <FaEye />}</span>
                                         </div>
                                     </div>
                                     <div>
