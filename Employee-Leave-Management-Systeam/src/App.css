@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head .sidebar li{
+  padding: 20px 15px  ;
+}
+
+.head .sidebar li:hover{
+    background-color: rgb(1, 62, 146);
+    border-radius: 8px;
+}
+
+.dashboard , .SeatFinder , .booking{
+    margin-left: 305px;
+    padding: 20px 30px;
+}
+
+.table td{
+    border: none;
+}
+

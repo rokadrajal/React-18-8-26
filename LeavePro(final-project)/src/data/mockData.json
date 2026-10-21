@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": "EMP001",
+      "name" : "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "Rahul@123",
+      "image" : "https://cdn-icons-png.flaticon.com/512/3090/3090108.png"
+    },
+    {
+      "id": "EMP002",
+      "name" : "Priya",
+      "email": "priya@gmail.com",
+      "password": "Priya@123",
+      "image" : "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+    },
+    {
+      "id": "EMP003",
+      "name" : "Amit",
+      "email": "amit@gmail.com",
+      "password": "Amit@123",
+      "image" : "https://cdn-icons-png.flaticon.com/512/3090/3090108.png"
+    },
+    {
+      "id": "EMP004",
+      "name" : "Neha",
+      "email": "neha@gmail.com",
+      "password": "Neha@123",
+      "image" : "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+    },
+    {
+      "id": "EMP005",
+      "name" : "Karan",
+      "email": "karan@gmail.com",
+      "password": "Karan@123",
+      "image" : "https://cdn-icons-png.flaticon.com/512/3090/3090108.png"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Aarav Patel",
+      "phone": "9876543210",
+      "email": "aarav.patel@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "C",
+      "image": "https://img.magnific.com/free-photo/young-boy-student-attending-school_23-2151031854.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Diya Shah",
+      "phone": "9876543211",
+      "email": "diya.shah@example.com",
+      "age": 11,
+      "class": "6",
+      "grade": "A+",
+      "image": "https://www.shutterstock.com/image-photo/happy-school-girl-reading-book-260nw-2762339425.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Krish Mehta",
+      "phone": "9876543212",
+      "email": "krish.mehta@example.com",
+      "age": 13,
+      "class": "8",
+      "grade": "B",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/040/176/903/small/ai-generated-funny-little-schoolboy-back-to-school-smiling-handsome-curly-boy-with-a-backpack-on-the-background-of-a-crowd-of-children-photo.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Ananya Joshi",
+      "phone": "9876543213",
+      "email": "ananya.joshi@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "A",
+      "image": "https://img.magnific.com/free-photo/cute-little-girl-table-with-lot-colorful-books_613910-13897.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Rohan Desai",
+      "phone": "9876543214",
+      "email": "rohan.desai@example.com",
+      "age": 14,
+      "class": "9",
+      "grade": "B",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYObm11ELPmjWIiKgvso8YoJ-IkXkadoq4N-jjnNAxb-2_89w2qeRKNll1&s=10"
+    },
+    {
+      "id": "6",
+      "name": "Priya Trivedi",
+      "phone": "9876543215",
+      "email": "priya.trivedi@example.com",
+      "age": 13,
+      "class": "8",
+      "grade": "A+",
+      "image": "https://media.istockphoto.com/id/1407288382/photo/close-up-focused-child-girl-read-book-in-bed-international-literacy-day.jpg?s=612x612&w=0&k=20&c=b6kjf2u8cIPE2BXjMXBQaii9cLsKWXX0AQaXQyNvtPM="
+    },
+    {
+      "id": "7",
+      "name": "Dev Malhotra",
+      "phone": "9876543216",
+      "email": "dev.malhotra@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "B",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/031/697/679/small/cute-boy-with-blackboard-background-generative-ai-photo.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Isha Pandya",
+      "phone": "9876543217",
+      "email": "isha.pandya@example.com",
+      "age": 11,
+      "class": "6",
+      "grade": "A",
+      "image": "https://img.magnific.com/free-photo/front-view-cute-little-girl-reading_23-2148355154.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Vivaan Shah",
+      "phone": "9876543218",
+      "email": "vivaan.shah@example.com",
+      "age": 14,
+      "class": "9",
+      "grade": "A+",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/027/215/926/small/smiling-teen-boy-and-girl-with-backpacks-on-white-background-holding-books-and-looking-at-camera-copy-space-for-advertising-back-to-school-products-childh-photo.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Meera Patel",
+      "phone": "9876543219",
+      "email": "meera.patel@example.com",
+      "age": 13,
+      "class": "8",
+      "grade": "B",
+      "image": "https://media.istockphoto.com/id/2128519716/photo/a-young-girl-is-reading-a-book-at-a-table.jpg?s=612x612&w=0&k=20&c=z4UZJcbZpPvLzQfYrzVUe3bCXZf1LLXenOZFjqwV-Dc="
+    },
+    {
+      "id": "11",
+      "name": "Arjun Shah",
+      "phone": "9876543220",
+      "email": "arjun.shah@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "A",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/047/107/164/small/boy-schoolboy-in-glasses-sitting-at-table-school-studying-vision-problem-vision-correction-optics-ophthalmology-photo.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Sara Mehta",
+      "phone": "9876543221",
+      "email": "sara.mehta@example.com",
+      "age": 13,
+      "class": "8",
+      "grade": "A+",
+      "image": "https://media.istockphoto.com/id/1060219386/photo/the-happy-schoolgirl-sitting-at-the-desk-with-books.jpg?s=612x612&w=0&k=20&c=AP5Fnq1STrlMFpnl_Xvv6cB7d7ix4YW_4WtSxzhTPCM="
+    },
+    {
+      "id": "13",
+      "name": "Yash Parmar",
+      "phone": "9876543222",
+      "email": "yash.parmar@example.com",
+      "age": 14,
+      "class": "9",
+      "grade": "B",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/038/969/921/small_2x/ai-generated-cute-little-school-boy-in-black-frame-glasses-boy-child-sitting-at-a-desk-in-a-white-interior-photo.jpeg"
+    },
+    {
+      "id": "14",
+      "name": "Kiara Desai",
+      "phone": "9876543223",
+      "email": "kiara.desai@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "A",
+      "image": "https://st.depositphotos.com/1017986/2993/i/450/depositphotos_29938377-stock-photo-student-girl-studying-at-school.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Reyansh Joshi",
+      "phone": "9876543224",
+      "email": "reyansh.joshi@example.com",
+      "age": 13,
+      "class": "8",
+      "grade": "B",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/065/860/496/small/a-young-boy-wearing-glasses-sits-at-a-desk-in-a-classroom-with-a-colorful-array-of-books-and-a-cup-of-pencils-in-the-foreground-photo.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Myra Trivedi",
+      "phone": "9876543225",
+      "email": "myra.trivedi@example.com",
+      "age": 11,
+      "class": "6",
+      "grade": "A+",
+      "image": "https://images.pexels.com/photos/8618021/pexels-photo-8618021.jpeg?cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": "18",
+      "name": "Avni Shah",
+      "phone": "9876543226",
+      "email": "avni.shah@example.com",
+      "age": 12,
+      "class": "7",
+      "grade": "A",
+      "image": "https://media.istockphoto.com/id/1173363595/photo/a-small-school-girl-sitting-at-the-desk-in-classroom-looking-at-camera.jpg?s=612x612&w=0&k=20&c=P8eLmJZ3mWK0Itpcyqz44oIeLkbYcMqSe4IizbCNIgo="
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

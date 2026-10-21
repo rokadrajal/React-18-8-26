@@ -1,0 +1,22 @@
+import { Routes , Route } from "react-router-dom"
+import EmployeeDashboard from "./pages/EmployeeDashboard"
+import Login from "./pages/Login"
+import { ProtectedRoute } from "./utils/validation"
+
+function App() {
+
+  return (
+    <>
+    <Routes>
+      <Route path="/" element={
+        <ProtectedRoute>
+          <EmployeeDashboard/>
+        </ProtectedRoute>
+        }/>
+      <Route path="/login" element={<Login/>}/>
+    </Routes>
+    </>
+  )
+}
+
+export default App
