@@ -61,6 +61,7 @@ StudentPro is a **Student Management System** built using React, Redux, React Ro
       - Screenshot8.png 
       - Screenshot9.png 
       - Screenshot10.png 
+      - Screenshot11.png 
     - App.jsx
     - App.css
     - main.jsx
@@ -100,6 +101,9 @@ StudentPro is a **Student Management System** built using React, Redux, React Ro
 
 ### 🔽 Filtering for Class 9
 ![Filtering for Class 9](src/screenshots/Screenshot10.png)
+
+### 🔤 Sorting Students Alphabetically
+![Sorting Students Alphabetically](src/screenshots/Screenshot11.png)
 
 
 ## 🔗 API
